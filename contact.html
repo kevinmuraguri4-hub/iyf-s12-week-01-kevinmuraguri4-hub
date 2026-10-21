@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <main>
+        <h1>Get in Touch</h1>
+        
+        <form action="#" method="POST">
+            
+            <!-- Group 1: Personal Details -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <div>
+                    <label for="fullname">Full Name *</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Jane Doe" required>
+                </div>
+
+                <div>
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone (Optional)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+                </div>
+            </fieldset>
+
+            <!-- Group 2: Message Details -->
+            <fieldset>
+                <legend>Your Message</legend>
+
+                <div>
+                    <label for="subject">Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="" disabled selected>-- Select a Subject --</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Technical Support</option>
+                        <option value="billing">Billing Question</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Type your message here (at least 50 characters)..." minlength="50" required></textarea>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Sign up for our newsletter</label>
+                </div>
+            </fieldset>
+
+            <!-- Submit Action -->
+            <div>
+                <button type="submit">Submit Form</button>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>
