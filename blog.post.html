@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post - Master Semantic HTML</title>
+</head>
+<body>
+
+    <!-- Main Navigation Menu -->
+    <header>
+        <nav>
+            <strong>My Portfolio Blog</strong>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Article Content -->
+    <main>
+        <article>
+            <header>
+                <!-- Article Title & Metadata -->
+                <h1>Demystifying Semantic HTML: Building for Everyone</h1>
+                <p>Published on: <time datetime="2026-10-31">October 31, 2026</time> | Written by: <span>Alex Developer</span></p>
+                
+                <!-- Featured Image -->
+                <figure>
+                    <img src="https://placehold.co" alt="A conceptual representation of code layout and semantic web structure">
+                    <figcaption>Writing organized, clean semantic code increases readability and SEO.</figcaption>
+                </figure>
+            </header>
+
+            <!-- Blog Post Body -->
+            <section>
+                <h2>Why Semantics Matter</h2>
+                <p>Semantic HTML introduces meaning to the web page rather than just presentation. For instance, a <code>&lt;main&gt;</code> tag tells the browser and assistive technologies exactly where the primary content lives, whereas a generic <code>&lt;div&gt;</code> tells them nothing about its content structure.</p>
+                <p>When you build with proper elements, screen readers can navigate your page significantly faster, giving users with visual impairments a seamless web surfing experience.</p>
+            </section>
+
+            <section>
+                <h2>Best Practices for Headings</h2>
+                <p>Always maintain a strict heading hierarchy. Your page should feature only one <code>&lt;h1&gt;</code> for the main title, followed logically by <code>&lt;h2&gt;</code> elements for your main sections, and <code>&lt;h3&gt;</code> elements for any nested sub-topics.</p>
+                <p>Skipping levels (like jumping straight from an H1 to an H4 just because you want smaller text) breaks the content outline tree and confuses accessibility audit tools.</p>
+            </section>
+        </article>
+    </main>
+
+    <!-- Related Posts Section -->
+    <aside>
+        <h2>Related Posts</h2>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="https://placehold.co" alt="Abstract icon representing a dev environment setup">
+                    <h3>Setting up your modern VS Code environment</h3>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://placehold.co" alt="Preview screenshot of a browser devtools panel">
+                    <h3>5 DevTools tricks every beginner should learn</h3>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://placehold.co" alt="Icons showing modern web accessibility standards">
+                    <h3>A checklist for passing your first accessibility audit</h3>
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Alex Developer. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
